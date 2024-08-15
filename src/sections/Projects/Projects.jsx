@@ -3,8 +3,8 @@ import viberr from '../../assets/viberr.png';
 import freshBurger from '../../assets/fresh-burger.png';
 import hipsster from '../../assets/hipsster.png';
 import fitLift from '../../assets/fitlift.png';
-import gpt3png from '../../assets/gpt 3 png.jpeg';
-import WeatherforecastUIinterfacedesign  from '../../assets/Weather forecast UI interface design.jpeg';
+import gpt3png from '../../assets/gpt3png.jpeg';
+import WeatherUI  from '../../assets/WeatherUI.jpeg';
 
 import ProjectCard from '../../common/ProjectCard';
 // import Dimage from './public/dimage.png';
@@ -15,13 +15,13 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src='src/assets/gpt 3 png.jpeg '
+          src={gpt3png}
           link="https://chat-gpt-ui-nithin.digitalrow.in/"
           h3="GPT-3"
           p="Fully Responsive Modern UI/UX GPT3 Clone"
         />
         <ProjectCard
-          src='src/assets/Weather forecast UI interface design.jpeg'
+          src={WeatherUI}
           link="http://weather-dashboard-nithin.digitalrow.in/"
           h3="Weather Dashboard"
           p="Weather Dashboard"
