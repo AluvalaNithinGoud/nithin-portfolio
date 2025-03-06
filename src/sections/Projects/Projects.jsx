@@ -1,10 +1,11 @@
 import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/viberr.png';
-import freshBurger from '../../assets/fresh-burger.png';
-import hipsster from '../../assets/hipsster.png';
-import fitLift from '../../assets/fitlift.png';
+// import viberr from '../../assets/viberr.png';
+// import freshBurger from '../../assets/fresh-burger.png';
+// import hipsster from '../../assets/hipsster.png';
+// import fitLift from '../../assets/fitlift.png';
 import gpt3png from '../../assets/gpt3png.jpeg';
 import WeatherUI  from '../../assets/WeatherUI.jpeg';
+import makemytriplogo  from '../../assets/makemytriplogo.png';
 
 import ProjectCard from '../../common/ProjectCard';
 // import Dimage from './public/dimage.png';
@@ -14,6 +15,12 @@ function Projects() {
     <section id="projects" className={styles.container}>
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
+         <ProjectCard
+          src={makemytriplogo}
+          link="https://makemytripdemo.netlify.app/"
+          h3=""
+          p="MakeMyTrip demo"
+        />
         <ProjectCard
           src={gpt3png}
           link="https://chat-gpt-ui-nithin.digitalrow.in/"

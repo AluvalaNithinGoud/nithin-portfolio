@@ -1,5 +1,5 @@
 import styles from './HeroStyles.module.css';
-import heroImg from '../../assets/Design uten navn.png';
+// import heroImg from '../../assets/Design uten navn.png';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
 import twitterLight from '../../assets/twitter-light.svg';
@@ -8,7 +8,7 @@ import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
-import document2 from '../../assets/document2.pdf';
+import Nithinresumedoc from '../../assets/Nithinresumedoc.pdf';
 import IMG_5806 from '../../assets/IMG_5806.jpg';
 import { useTheme } from '../../common/ThemeContext';
 
@@ -57,7 +57,7 @@ function Hero() {
           With a passion for developing modern React web apps for commercial
           businesses.
         </p>
-        <a href={document2} download>
+        <a href={Nithinresumedoc.pdf} download>
           <button className="hover">Resume</button>
         </a>
       </div>
