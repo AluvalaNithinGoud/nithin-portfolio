@@ -18,8 +18,8 @@ function Projects() {
          <ProjectCard
           src={makemytriplogo}
           link="https://makemytripdemo.netlify.app/"
-          h3=""
-          p="MakeMyTrip demo"
+          h3="MakeMyTrip demo"
+          p="It is a Travel website UI"
         />
         <ProjectCard
           src={gpt3png}
