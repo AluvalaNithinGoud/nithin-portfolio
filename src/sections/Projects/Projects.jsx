@@ -5,8 +5,7 @@ import styles from './ProjectsStyles.module.css';
 // import fitLift from '../../assets/fitlift.png';
  import WeatherUI  from '../../assets/WeatherUI.jpeg';
 import makemytriplogo  from '../../assets/makemytriplogo.png';
-import dstreet from '../../assets/dstreet.png';
-import ProjectCard from '../../common/ProjectCard';
+ import ProjectCard from '../../common/ProjectCard';
 // import Dimage from './public/dimage.png';
 
 function Projects() {
@@ -21,8 +20,8 @@ function Projects() {
           p="It is a Travel website UI"
         />
         <ProjectCard
-          src={dstreet}
-          link="dappsocial.io/dstreet"
+          src={makemytriplogo}
+          link="https://risestreet.io/dstreet/"
           h3="DStreet"
           p="A large NFT Marketplace"
         />
