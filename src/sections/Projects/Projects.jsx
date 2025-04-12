@@ -3,10 +3,9 @@ import styles from './ProjectsStyles.module.css';
 // import freshBurger from '../../assets/fresh-burger.png';
 // import hipsster from '../../assets/hipsster.png';
 // import fitLift from '../../assets/fitlift.png';
-import  dapp from '../../assets/dapp.png';
-import WeatherUI  from '../../assets/WeatherUI.jpeg';
+ import WeatherUI  from '../../assets/WeatherUI.jpeg';
 import makemytriplogo  from '../../assets/makemytriplogo.png';
-
+import dstreet from '../../assets/dstreet.png';
 import ProjectCard from '../../common/ProjectCard';
 // import Dimage from './public/dimage.png';
 
@@ -22,7 +21,7 @@ function Projects() {
           p="It is a Travel website UI"
         />
         <ProjectCard
-          src={dapp}
+          src={dstreet}
           link="dappsocial.io/dstreet"
           h3="DStreet"
           p="A large NFT Marketplace"
