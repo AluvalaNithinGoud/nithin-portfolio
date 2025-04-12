@@ -3,7 +3,7 @@ import styles from './ProjectsStyles.module.css';
 // import freshBurger from '../../assets/fresh-burger.png';
 // import hipsster from '../../assets/hipsster.png';
 // import fitLift from '../../assets/fitlift.png';
-import gpt3png from '../../assets/gpt3png.jpeg';
+import  dapp from '../../assets/dapp.png';
 import WeatherUI  from '../../assets/WeatherUI.jpeg';
 import makemytriplogo  from '../../assets/makemytriplogo.png';
 
@@ -22,10 +22,10 @@ function Projects() {
           p="It is a Travel website UI"
         />
         <ProjectCard
-          src={gpt3png}
-          link="https://chat-gpt-ui-nithin.digitalrow.in/"
-          h3="GPT-3"
-          p="Fully Responsive Modern UI/UX GPT3 Clone"
+          src={dapp}
+          link="dappsocial.io/dstreet"
+          h3="DStreet"
+          p="A large NFT Marketplace"
         />
         <ProjectCard
           src={WeatherUI}
