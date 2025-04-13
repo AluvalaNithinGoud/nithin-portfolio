@@ -16,12 +16,12 @@ function Projects() {
          <ProjectCard
           src={makemytriplogo}
           link="https://makemytripdemo.netlify.app/"
-          h3="MakeMyTrip demo"
+          h3="MaeMyTrip demo"
           p="It is a Travel website UI"
         />
         <ProjectCard
           src={makemytriplogo}
-          link="https://risestreet.io/dstreet/"
+          link="https://dappsocial.io/dstreet"
           h3="DStreet"
           p="A large NFT Marketplace"
         />
