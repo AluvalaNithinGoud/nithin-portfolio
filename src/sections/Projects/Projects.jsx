@@ -23,8 +23,8 @@ function Projects() {
         <ProjectCard
           src={ChatGPT}
           link="https://chat-gpt-ui-nithin.digitalrow.in/"
-          h3="DStreet"
-          p="A large NFT Marketplace"
+          h3="ChatGPT UI"
+          p="UI of GPT"
         />
         <ProjectCard
           src={WeatherUI}
